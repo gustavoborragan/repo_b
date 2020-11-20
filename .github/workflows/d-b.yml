@@ -15,4 +15,5 @@ jobs:
                 echo "${{ github.event.client_payload.uno }}"
                 echo "${{ github.event.client_payload.dos }}"
                 echo "${{ github.event.client_payload.tres }}"
+                echo "${{ github.event.client_payload.image }}"
 
